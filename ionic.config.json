@@ -1,0 +1,8 @@
+{
+  "name": "abril29",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite",
+  "id": "5cde995a"
+}
