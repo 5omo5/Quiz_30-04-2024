@@ -8,12 +8,19 @@
   
       <ion-content>
         <br>
-        <div id="container">
-          <strong><a href="/cliente">Ir a Clientes</a></strong>
+        <ion-content id="container">
+          <strong><a href="/cliente" class="boton">Ir a Clientes</a></strong>          
           <br>
-          <strong><a href="/producto">Ir a productos</a></strong>
+          <strong><a href="/producto" class="boton">Ir a productos</a></strong>
+          <br>
+          <strong><a href="/otrocliente" class="boton">Ir a otro cliente</a></strong>
+          <br>
+          <strong><a href="/empleado" class="boton">Ir a Empleado</a></strong>
+          <br>
+          <strong><a href="/estudiante" class="boton">Ir a Estudiante</a></strong>
+          <br>
   
-        </div>
+        </ion-content>div>
   
       </ion-content>
     </ion-page>
@@ -23,4 +30,20 @@
   import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
   </script>
   
-  <style scoped></style>
+  <style scoped>
+.boton {
+  display: block;
+  padding: 10px 30%;
+  background-color: #007bff; /* Azul */
+  color: #ffffff; /* Texto blanco */
+  text-decoration: none; /* Quitar subrayado */
+  border-style: outset;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+}
+
+</style>

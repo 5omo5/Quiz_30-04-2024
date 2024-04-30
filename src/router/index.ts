@@ -3,8 +3,11 @@ import { RouteRecordRaw } from 'vue-router';
 import HomePage from '../views/HomePage.vue'
 import ClientePage from '../views/ClientePage.vue'
 import LoginPage from '../views/LoginPage.vue'
-import DasboardPage from '../views/DasboardPage.vue'
+import DasboardPage from '@/views/DasboardPage.vue';
 import ProductoPage from '@/views/ProductoPage.vue';
+import OtroClientePage from '@/views/OtroClientePage.vue';
+import EmpleadoPage from '@/views/EmpleadoPage.vue';
+import EstudiantePage from '@/views/EstudiantePage.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -34,7 +37,24 @@ const routes: Array<RouteRecordRaw> = [
     path: '/producto',
     name: 'Producto',
     component: ProductoPage
-  }
+  },
+  {
+    path: '/otrocliente',
+    name: 'OtroCliente',
+    component: OtroClientePage
+  },
+  {
+    path: '/empleado',
+    name: 'Empleado',
+    component: EmpleadoPage
+  },
+  
+  {
+    path: '/estudiante',
+    name: 'Estudiante',
+    component: EstudiantePage
+  },
+
 ]
 
 const router = createRouter({

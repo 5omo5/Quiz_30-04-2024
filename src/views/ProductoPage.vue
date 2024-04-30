@@ -2,7 +2,7 @@
     <ion-page>
       <ion-header :translucent="true">
         <ion-toolbar>
-          <ion-title>Prodcuto</ion-title>
+          <ion-title>Producto</ion-title>
         </ion-toolbar>
       </ion-header>  
       <ion-content>       
@@ -27,7 +27,6 @@
   
   <script setup lang="ts">
   import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue';
-  import ButtonComponent from '@/components/ButtonComponent.vue';
   import InputComponent from '@/components/InputComponent.vue';
   import CrudButtonComponent from '@/components/CrudButtonComponents.vue';
   </script>
